@@ -16,7 +16,7 @@ export class GiphySearchManualComponent implements OnInit {
     ngOnInit() {}
 
     pesquisarGiphy() {
-        this.giphySearchService.pesquisarGiphy('2', 'BANG')
+        this.giphySearchService.pesquisarGiphy('10', 'deux')
             .subscribe((response: Response) => this.gifs = response.json().data);
     }
 }
