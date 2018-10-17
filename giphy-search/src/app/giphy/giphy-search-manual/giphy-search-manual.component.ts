@@ -23,6 +23,5 @@ export class GiphySearchManualComponent implements OnInit {
     pesquisarGiphy() {
         this.giphySearchService.pesquisarGiphy(this.limit, this.term)
             .subscribe((response: Response) => this.gifs = response.json().data);
-        this.title.setTitle('Limite:' + this.limit);
     }
 }

@@ -4,6 +4,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { GiphySearchManualComponentModule } from './giphy/giphy-search-manual/giphy-search-manual.module';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { GiphySearchManualComponentModule } from './giphy/giphy-search-manual/gi
   imports: [
     HttpModule,
     BrowserModule,
+    AppRoutingModule,
     GiphySearchManualComponentModule
   ],
   providers: [],
