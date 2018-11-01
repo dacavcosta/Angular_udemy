@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { GiphySearchManualComponent } from './giphy-search-manual.component';
 
 const routes: Routes = [
-    { path: '', component: GiphySearchManualComponent },
+    { path: 'GiphySearch', component: GiphySearchManualComponent },
 ];
 
 @NgModule({
