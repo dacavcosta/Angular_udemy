@@ -1,5 +1,6 @@
-import { NgModule } from '@angular/core';
+
 import { GiphySearchListComponent } from './giphy-search-list.component';
+import { NgModule } from '@angular/core';
 import { ShareModuleModule } from '../../share/share.module';
 
 @NgModule({

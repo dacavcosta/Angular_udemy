@@ -5,10 +5,9 @@ export interface Giphy {
 }
 
 export interface Images {
-    fixed_height_still: ViewType;
-    fixed_height: ViewType;
+    fixed_height: Fixed;
 }
 
-export interface ViewType {
+export interface Fixed {
     url: string;
 }
