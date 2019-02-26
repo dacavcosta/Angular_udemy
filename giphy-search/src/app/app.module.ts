@@ -4,20 +4,28 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { GiphySearchManualComponentModule } from './giphy/giphy-search-manual/giphy-search-manual.module';
+import { GiphySearchManualModule } from './giphy/giphy-search-manual/giphy-search-manual.module';
 import { FormularioComponentModule } from './giphy/formulario/formulario.module';
-
+import { ContatoModule } from './contato/contato.module';
+import { PageNotFoundModule } from './page-not-found/page-not-found.module';
+import { HomeModule } from './home/home.module';
+import { GiphySearchAutoModule } from './giphy/giphy-search-manual/giphy-search-auto/giphy-search-auto.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     HttpModule,
     BrowserModule,
     AppRoutingModule,
-    GiphySearchManualComponentModule,
-    FormularioComponentModule
+    ContatoModule,
+    GiphySearchManualModule,
+    GiphySearchAutoModule,
+    FormularioComponentModule,
+    HomeModule,
+
+    PageNotFoundModule
   ],
   providers: [],
   bootstrap: [AppComponent]

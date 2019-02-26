@@ -3,12 +3,12 @@ import { GiphySearchManualComponent } from './giphy-search-manual.component';
 import { GiphySearchService } from '../giphy-search.service';
 import { ShareModuleModule } from '../../share/share.module';
 import { GiphySearchListModule } from '../giphy-search-list/giphy-search-list.module';
-import { GiphySearchManualComponentRoutingModule } from './giphy-search-routing.module';
+import { GiphySearchManualRoutingModule } from './giphy-search-routing.module';
 
 @NgModule({
     declarations: [ GiphySearchManualComponent ],
-    imports: [ ShareModuleModule, GiphySearchListModule, GiphySearchManualComponentRoutingModule ],
+    imports: [ ShareModuleModule, GiphySearchListModule, GiphySearchManualRoutingModule ],
     exports: [ GiphySearchManualComponent ],
     providers: [ GiphySearchService ],
 })
-export class GiphySearchManualComponentModule {}
+export class GiphySearchManualModule {}
