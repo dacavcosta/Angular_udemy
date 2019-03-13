@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { GiphySearchManualComponent } from '../giphy-search-manual.component';
-import { GiphySearchService } from '../../giphy-search.service';
+import { GiphySearchManualComponent } from '../giphy-search-manual/giphy-search-manual.component';
+import { GiphySearchService } from '../giphy-search.service';
 import { Title } from '@angular/platform-browser';
 import { Giphy } from '../giphy.type';
 

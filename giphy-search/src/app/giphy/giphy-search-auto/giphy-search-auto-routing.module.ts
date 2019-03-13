@@ -5,7 +5,7 @@ import { GiphySearchAutoComponent } from './giphy-search-auto.component';
 
 @NgModule({
   imports: [RouterModule.forChild([
-    {path: 'giphy-search-auto', component: GiphySearchAutoComponent}
+    {path: '', component: GiphySearchAutoComponent}
   ])]
 })
 export class GiphySearchAutoRoutingModule { }

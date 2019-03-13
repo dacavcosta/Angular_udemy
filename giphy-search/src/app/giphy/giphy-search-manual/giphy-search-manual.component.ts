@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { GiphySearchService } from '../giphy-search.service';
 import { Response } from '@angular/http';
 import { Title } from '@angular/platform-browser';
-import { Giphy } from './giphy.type';
+import { Giphy } from '../giphy.type';
 
 @Component({
     selector: 'giphy-search-manual',

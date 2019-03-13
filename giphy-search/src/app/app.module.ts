@@ -4,12 +4,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { GiphySearchManualModule } from './giphy/giphy-search-manual/giphy-search-manual.module';
+// import { GiphySearchManualModule } from './giphy/giphy-search-manual/giphy-search-manual.module';
 import { FormularioComponentModule } from './giphy/formulario/formulario.module';
 import { ContatoModule } from './contato/contato.module';
 import { PageNotFoundModule } from './page-not-found/page-not-found.module';
 import { HomeModule } from './home/home.module';
-import { GiphySearchAutoModule } from './giphy/giphy-search-manual/giphy-search-auto/giphy-search-auto.module';
+// import { GiphySearchAutoModule } from './giphy/giphy-search-auto/giphy-search-auto.module';
 
 @NgModule({
   declarations: [
@@ -20,8 +20,9 @@ import { GiphySearchAutoModule } from './giphy/giphy-search-manual/giphy-search-
     BrowserModule,
     AppRoutingModule,
     ContatoModule,
-    GiphySearchManualModule,
-    GiphySearchAutoModule,
+    // Comentado para alterar estes dois módulos para Lazy Loading
+    // GiphySearchManualModule,
+    // GiphySearchAutoModule,
     FormularioComponentModule,
     HomeModule,
 
