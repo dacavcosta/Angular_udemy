@@ -7,11 +7,16 @@ import { NgModule } from '@angular/core';
 @NgModule({
     imports: [RouterModule.forRoot([
         {
-            // tslint:disable-next-line:max-line-length
-            path: 'giphy-search-manual', loadChildren: './giphy/giphy-search-manual/giphy-search-manual.module'
+            path: 'giphy-search-manual',
+            loadChildren: './giphy/giphy-search-manual/giphy-search-manual.module'
         },
         {
-            path: 'giphy-search-auto', loadChildren: './giphy/giphy-search-auto/giphy-search-auto.module'
+            path: 'giphy-search-auto',
+            loadChildren: './giphy/giphy-search-auto/giphy-search-auto.module'
+        },
+        {
+            path: 'diretiva-commom-module',
+            loadChildren: './diretiva-commom-module/diretiva-commom-module.module'
         }
     ])],
     exports: [RouterModule]
