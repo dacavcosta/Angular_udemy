@@ -1,3 +1,18 @@
-<p>
-  ng-class-exemplo works!
+<p class="centered-text underlined orange alert">
+  class Manual Tradicional
 </p>
+
+<p ngClass="centered-text underlined" class="orange">
+  ng-class e Class
+</p>
+
+<p [ngClass]="['sucess', 'big']">
+  ng-class com property bind
+</p>
+
+<p [ngClass]="{ card: true, dark: dark, flat: flat}">
+  ng-class condicional com property bind
+</p>
+
+<button type="button" (click)="flat=!flat" [ngClass]="['btn', 'btn-secondary']">Flat</button>
+<button type="button" (click)="dark=!dark" [ngClass]="['btn', 'btn-dark']">Dark</button>

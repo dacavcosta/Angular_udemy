@@ -1,3 +1,25 @@
-<p>
-  ng-style-exemplo works!
+<p style="padding: 1rem; color: red; font-weight: bold; border-bottom: borderStyle">
+  Style manual tradicional
+</p>
+
+<p style="padding: 1rem"
+  [ngStyle]="{
+    'color': 'red', 
+    'font-weight': 'bold',
+    'border-bottom': '1rem solid'
+  }">
+  ngStyle usando diretiva
+</p>
+
+<p style="padding: 1rem;"
+  [ngStyle]="{
+    'color': cor, 
+    'font-weight': 'bold',
+    'border-bottom': borderStyle
+  }">
+  ngStyle usando diretiva com variáveis
+</p>
+
+<p style="padding: 1rem;" [ngStyle]="alertStyles">
+  ngStyle utilizando a diretiva com um objeto do componente
 </p>

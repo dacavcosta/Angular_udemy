@@ -1,3 +1,15 @@
-<p>
-  ng-switch-exemplo works!
-</p>
+<button type="button" (click)="SetFormatacao(1)" class="btn btn-light">
+  Italico
+</button>
+<button type="button" (click)="SetFormatacao(2)" class="btn btn-light">
+  Negrito
+</button>
+<button type="button" (click)="SetFormatacao(3)" class="btn btn-light">
+  Sublinhado
+</button>
+
+<div [ngSwitch]="formatacao">
+  <I *ngSwitchCase="1">Resultado Italico</I>
+  <B *ngSwitchCase="2">Resultado Negrito</B>
+  <U *ngSwitchCase="3">Resultado Sublinhado</U>
+</div>

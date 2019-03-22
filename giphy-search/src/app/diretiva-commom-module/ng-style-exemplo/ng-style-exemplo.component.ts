@@ -5,11 +5,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './ng-style-exemplo.component.html',
   styleUrls: ['./ng-style-exemplo.component.css']
 })
-export class NgStyleExemploComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class NgStyleExemploComponent {
+  // alertStyles: object;
+  borderStyle = '1rem solid';
+  cor = 'blue';
+  alertStyles = {
+    'color': 'yellow',
+    'font-weight': 'bold',
+    'border-bottom': this.borderStyle
+  };
 }
