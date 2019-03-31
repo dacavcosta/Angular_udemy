@@ -17,6 +17,10 @@ import { NgModule } from '@angular/core';
         {
             path: 'diretiva-commom-module',
             loadChildren: './diretiva-commom-module/diretiva-commom-module.module'
+        },
+        {
+            path: 'pipe',
+            loadChildren: './pipe/pipe.module'
         }
     ])],
     exports: [RouterModule]
