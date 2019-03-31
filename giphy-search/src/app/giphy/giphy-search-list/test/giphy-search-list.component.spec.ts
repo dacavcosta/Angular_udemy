@@ -1,5 +1,5 @@
 import { GiphySearchListComponent } from '../giphy-search-list.component';
-import { ShareModuleModule } from '../../../share/share.module';
+import { SharedModuleModule } from '../../../shared/shared.module';
 import { TestBed, ComponentFixture, async } from '@angular/core/testing';
 import { DebugElement } from '@angular/core';
 import { By } from '@angular/platform-browser';
@@ -11,7 +11,7 @@ describe('', () => {
 
     beforeEach(async(() => {
         TestBed.configureTestingModule({
-            imports: [ ShareModuleModule ],
+            imports: [ SharedModuleModule ],
             declarations: [ GiphySearchListComponent ]
         }).compileComponents().then(() => {
             fixture = TestBed.createComponent(GiphySearchListComponent);

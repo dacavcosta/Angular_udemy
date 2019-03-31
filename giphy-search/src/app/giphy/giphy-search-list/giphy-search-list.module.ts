@@ -1,10 +1,10 @@
 
 import { GiphySearchListComponent } from './giphy-search-list.component';
 import { NgModule } from '@angular/core';
-import { ShareModuleModule } from '../../share/share.module';
+import { SharedModuleModule } from '../../shared/shared.module';
 
 @NgModule({
-  imports: [ ShareModuleModule ],
+  imports: [ SharedModuleModule ],
   declarations: [ GiphySearchListComponent ],
   exports: [ GiphySearchListComponent ]
 })
