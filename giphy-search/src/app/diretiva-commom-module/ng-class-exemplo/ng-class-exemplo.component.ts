@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-ng-class-exemplo',
@@ -6,5 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ng-class-exemplo.component.css']
 })
 export class NgClassExemploComponent {
-
+  dark = false;
+  flat = false;
 }

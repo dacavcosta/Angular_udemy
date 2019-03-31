@@ -10,6 +10,9 @@ import { Giphy } from '../giphy.type';
 })
 
 export class GiphySearchManualComponent implements OnInit {
+    dataCriacao = new Date(1988, 3, 15);
+    mensagem = 'Aguarde o curso de IONIC, em breve, fique ligado no YouTube ';
+    youtube = 'https://goo.gl/h50OpD';
 
     gifs: Giphy[] = [];
     limit: string;
