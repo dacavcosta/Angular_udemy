@@ -4,9 +4,10 @@ import { CommonModule } from '@angular/common';
 import { PipeRoutingModule } from './pipe-routing.module';
 import { PipeComponent } from './pipe.component';
 import { TipoPessoaPipe } from '../shared/pipe/tipo-pessoa.pipe';
+import { CapitalizePipe } from '../shared/pipe/capitalize.pipe';
 
 @NgModule({
-  declarations: [PipeComponent, TipoPessoaPipe],
+  declarations: [PipeComponent, TipoPessoaPipe, CapitalizePipe],
   imports: [
     CommonModule,
     PipeRoutingModule

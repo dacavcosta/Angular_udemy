@@ -9,6 +9,7 @@ import { FormularioComponentModule } from './giphy/formulario/formulario.module'
 import { ContatoModule } from './contato/contato.module';
 import { PageNotFoundModule } from './page-not-found/page-not-found.module';
 import { HomeModule } from './home/home.module';
+// import { ChangeDetectionComponent } from './change-detection/change-detection.component';
 // import { GiphySearchAutoModule } from './giphy/giphy-search-auto/giphy-search-auto.module';
 
 @NgModule({
@@ -25,7 +26,6 @@ import { HomeModule } from './home/home.module';
     // GiphySearchAutoModule,
     FormularioComponentModule,
     HomeModule,
-
     PageNotFoundModule
   ],
   providers: [],

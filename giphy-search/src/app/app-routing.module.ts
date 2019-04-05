@@ -21,6 +21,10 @@ import { NgModule } from '@angular/core';
         {
             path: 'pipe',
             loadChildren: './pipe/pipe.module'
+        },
+        {
+            path: 'change-detection',
+            loadChildren: './change-detection/change-detection.module#ChangeDetectionModule'
         }
     ])],
     exports: [RouterModule]
