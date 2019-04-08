@@ -2,9 +2,12 @@
   {{ title }}!
 </h1>
 
-<a [routerLink]="''">Quem Somos</a>
-<a [routerLink]="[{ outlets: { negrito: ['bem-vindo']}}]">Bem-Vindo</a>
-<a [routerLink]="[{ outlets: { italico: ['contato']}}]">Contato</a>
+<a [routerLink]="''">Quem Somos</a>&nbsp;
+<a [routerLink]="[{ outlets: { negrito: ['bem-vindo']}}]">Bem-Vindo</a>&nbsp;
+<a [routerLink]="[{ outlets: { italico: ['contato']}}]">Contato</a>&nbsp;
+
+<a [routerLink]="'prospecto'">Prospecto</a>&nbsp;
+<a [routerLink]="['prospecto', {outlets: {mestre: ['pessoa'], detalhe: ['endereco']  }}]">Prospecto</a>&nbsp;
 
 <router-outlet></router-outlet>
 
