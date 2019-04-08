@@ -1,0 +1,17 @@
+<h1>
+  {{ title }}!
+</h1>
+
+<a [routerLink]="''">Quem Somos</a>
+<a [routerLink]="[{ outlets: { negrito: ['bem-vindo']}}]">Bem-Vindo</a>
+<a [routerLink]="[{ outlets: { italico: ['contato']}}]">Contato</a>
+
+<router-outlet></router-outlet>
+
+<B>
+    <router-outlet name="negrito"></router-outlet>
+</B>
+
+<i>
+    <router-outlet name="italico"></router-outlet>
+</i>
