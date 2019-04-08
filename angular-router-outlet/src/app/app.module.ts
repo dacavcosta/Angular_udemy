@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ContatoModule } from './contato/contato.module';
 import { BemVindoModule } from './bem-vindo/bem-vindo.module';
 import { QuemSomosModule } from './quem-somos/quem-somos.module';
+import { ProspectoModule } from './prospecto/prospecto.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { QuemSomosModule } from './quem-somos/quem-somos.module';
     AppRoutingModule,
     ContatoModule,
     BemVindoModule,
-    QuemSomosModule
+    QuemSomosModule,
+    ProspectoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
