@@ -17,6 +17,10 @@ const routes: Routes = [
   {
     path: 'view-child-simples',
     loadChildren: './componentes/view-child/view-child-simples/view-child-simples.module#ViewChildSimplesModule'
+  },
+  {
+    path: 'view-child-view-children',
+    loadChildren: './componentes/view-child/view-child-view-children/view-child-view-children.module#ViewChildViewChildrenModule'
   }
 ];
 
