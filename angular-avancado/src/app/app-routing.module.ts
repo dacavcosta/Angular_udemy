@@ -12,7 +12,7 @@ const routes: Routes = [
   },
   {
     path: 'exemplo-ng-content',
-    loadChildren: './componentes/ng-content/exemplo-simples-ng-content/exemplo-ng-content.module#ExemploNgContentModule'
+    loadChildren: './componentes/ng-content/exemplo-ng-content/exemplo-ng-content.module#ExemploNgContentModule'
   }
 ];
 
