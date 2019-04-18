@@ -13,6 +13,10 @@ const routes: Routes = [
   {
     path: 'exemplo-ng-content',
     loadChildren: './componentes/ng-content/exemplo-ng-content/exemplo-ng-content.module#ExemploNgContentModule'
+  },
+  {
+    path: 'view-child-simples',
+    loadChildren: './componentes/view-child/view-child-simples/view-child-simples.module#ViewChildSimplesModule'
   }
 ];
 
