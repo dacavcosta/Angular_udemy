@@ -21,6 +21,10 @@ const routes: Routes = [
   {
     path: 'view-child-view-children',
     loadChildren: './componentes/view-child/view-child-view-children/view-child-view-children.module#ViewChildViewChildrenModule'
+  },
+  {
+    path: 'compartilhando-estados-com-services',
+    loadChildren: './compartilhando-estados-com-services/raiz.module#RaizModule'
   }
 ];
 
